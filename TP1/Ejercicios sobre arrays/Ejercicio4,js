@@ -1,0 +1,10 @@
+function elevarAlCuadrado(numeros) {
+  return numeros.map(function(numero) {
+    return numero * numero;
+  });
+}
+
+let arrayOriginal = [1, 2, 3, 4, 5];
+let arrayCuadrados = elevarAlCuadrado(arrayOriginal);
+
+console.log(arrayCuadrados);
